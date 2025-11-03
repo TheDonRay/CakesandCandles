@@ -1,22 +1,31 @@
 /* Center everything inside main-div */
 .main-div {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Changed from height to min-height */
-  padding: 20px;
-  text-align: center;
-  background-color: #fff5f8;
-  font-family: "Sixtyfour", sans-serif;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Take up full screen height */
+  text-align: center; /* Center text */
+  background-color: #000000; /* Soft background for birthday vibe */
+  font-family: "Sixtyfour", sans-serif; /* Apply your Google Font */
+}
+
+/* Title styling */
+.titleDiv {
+  font-size: 2rem;
+  color: #ff6b81;
+  margin-bottom: 10px;
+  max-width: 90%; /* Prevent text from hitting edges */
+  word-wrap: break-word; /* Allow long words to wrap */
 }
 
 /* Subtitle / message styling */
 .secondtitle {
-  font-size: clamp(1.2rem, 4vw, 1.5rem); /* Responsive sizing */
-  color: #333;
-  margin-bottom: 30px;
-  max-width: 90%;
+  font-size: 1.5rem;
+  color: #ff6b81;
+  margin-bottom: 20px;
+  max-width: 800px; 
+   line-height:2.5rem;
 }
 
 /* Button Container */
@@ -24,8 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  flex-wrap: wrap; /* Stack on mobile if needed */
+  gap: 15px; /* Space between buttons */
 }
 
 /* Button styling */
