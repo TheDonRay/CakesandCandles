@@ -1,0 +1,48 @@
+/* Center everything inside main-div */
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Changed from height to min-height */
+  padding: 20px;
+  text-align: center;
+  background-color: #fff5f8;
+  font-family: "Sixtyfour", sans-serif;
+}
+
+/* Subtitle / message styling */
+.secondtitle {
+  font-size: clamp(1.2rem, 4vw, 1.5rem); /* Responsive sizing */
+  color: #333;
+  margin-bottom: 30px;
+  max-width: 90%;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap; /* Stack on mobile if needed */
+}
+
+/* Button styling */
+.bdaybtn,
+.closebtn {
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.bdaybtn:hover,
+.closebtn:hover {
+  background-color: #ff4757;
+  transform: scale(1.05);
+}
