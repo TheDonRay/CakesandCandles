@@ -11,7 +11,7 @@ export default function MainPage() {
   const [origState, newState] = useState(BirthdayWish);
 
   // instantiate Birthday person variable
-  const BirthdayPerson = "Aneesah";
+  const BirthdayPerson = "Hamza";
   
   // create a button function for the envelope stuff
   // this button function is going have the Click me ! for the birthday suprise.
@@ -21,7 +21,10 @@ export default function MainPage() {
 
   function CloseButton() {
     newState(BirthdayWish);
-  }
+  } 
+
+  //TODO: need to add effects in the background like some animation effects to make it a bit more cooler. 
+  //TODO: implement that in to the css as well -> make sure its good.
 
   return (
     <>
