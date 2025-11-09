@@ -29,7 +29,7 @@ export default function MainPage() {
   return (
     <>
       <div className="main-div">
-        <h1 className="titleDiv">Happy Birthday 💗</h1>
+        <h1 className="titleDiv">Happy Birthday 🎊</h1>
         <h2 className="secondtitle">{origState}</h2>
         <div className="button-container">
           <button className="bdaybtn" onClick={ClickMe}>

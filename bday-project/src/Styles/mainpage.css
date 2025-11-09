@@ -7,7 +7,22 @@
   height: 100vh; /* Take up full screen height */
   text-align: center; /* Center text */
   background-color: #000000; /* Soft background for birthday vibe */
-  font-family: "Sixtyfour", sans-serif; /* Apply your Google Font */
+  font-family: "Sixtyfour", sans-serif; /* Apply your Google Font */  
+  animation: glow-pulse 2s ease-in-out infinite; 
+  border-radius: 50rem;
+} 
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 
+      0 0 20px rgba(255, 255, 255, 0.6),
+      0 0 40px rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    box-shadow: 
+      0 0 30px rgba(255, 255, 255, 0.8),
+      0 0 60px rgba(255, 255, 255, 0.6);
+  }
 }
 
 /* Title styling */
