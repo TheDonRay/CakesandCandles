@@ -14,7 +14,7 @@ export default function MainPage() {
   const [balloons, setBalloons] = useState([]);
 
   // instantiate Birthday person variable
-  const BirthdayPerson = "Hamza";
+  const BirthdayPerson = "Deep";
 
   // Generate random balloons on mount
   useEffect(() => {
